@@ -11,13 +11,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export const navItems = [
   {
-    name: 'Features',
+    name: 'Your one stop Blockchain Enhancer',
     href: '#features',
   },
-  {
-    name: 'Testimonials',
-    href: '#testimonials',
-  },
+  
   
 ];
 

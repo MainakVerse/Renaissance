@@ -17,11 +17,13 @@ import { faCircleCheck } from '@fortawesome/free-solid-svg-icons';
 import { Logo } from '@/components/Logo';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 
 export const features = [
-  'State-of-the-art UI/UX',
-  'Intelligent automation',
-  'Robust performance',
+  'Optimized Smart Contracts',
+  'Seamless Smart Oracles',
+  'Intelligent Auditors',
+  'Robust Consensus',
 ];
 
 export const logos = [
@@ -77,7 +79,7 @@ export const Features = () => {
               {/* left side */}
               <div>
                 <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-gray-200 leading-tight">
-                  Your business architect
+                  Your Blockchain Architect
                 </h2>
                 <ul className="mt-12 flex flex-col gap-8">
                   {features.map((feature, index) => (
@@ -90,7 +92,7 @@ export const Features = () => {
                     </li>
                   ))}
                 </ul>
-                <Button className="mt-16">Try it now</Button>
+                <Link href="/contracts"><Button className="mt-16">Try it now</Button></Link>
               </div>
 
               {/* right side */}

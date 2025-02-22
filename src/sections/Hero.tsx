@@ -1,5 +1,5 @@
 'use client';
-
+import Link from 'next/link';
 import { Button } from '@/components/Button';
 import Typewriter from 'typewriter-effect';
 import underlineImage from '@/assets/images/underline.svg?url';
@@ -74,10 +74,10 @@ export const Hero = () => {
               </span>
             </h1>
             <p className="text-center text-lg md:text-xl mt-8 lg:max-w-3xl lg:mx-auto">
-              Want to make an impact in the market with your blogs, ecommerce, product vision and landing pages? Get your premium hosted website today.
+              Want to make an impact in the market with your smart contracts, smart oracles, SSIs and digital assets? Get your premium hosted resources today.
             </p>
             <div className="flex justify-center mt-10">
-              <a href="https://calendly.com/mainakchaudhuri671/tech-talk" target='_blank'><Button variant="secondary">Book A Demo</Button></a>
+              <Link href="/contracts"><Button variant="secondary">Get Started</Button></Link>
             </div>
 
             <div className="relative isolate max-w-5xl mx-auto">
@@ -141,7 +141,7 @@ export const Hero = () => {
                   <strong>Client:</strong> 
                   <Typewriter
                     options={{
-                      strings: ['Can you build me an ecommerce website?', 'Can you build me a stunning landing page?','Can you write a publication?','Can you optimize my website?'],
+                      strings: ['Can you build me a smart contract?', 'Can your write a smart oracle?','Can you verify a contract?','Can you optimize SSI?'],
                       autoStart: true,
                       loop: true,
                     }}
@@ -189,7 +189,7 @@ export const Hero = () => {
     <div className="bg-gray-950/80 flex justify-center items-center gap-4 px-4 py-2 rounded-2xl w-[320px] max-w-full">
       <LoaderCircle className="text-violet-400 animate-spin " />
       <div className="font-semibold text-xl text-gray-100">
-        Exploring...
+        Mining...
         <span className="animate-cursor-blink font-thin">|</span>
       </div>
     </div>

@@ -8,6 +8,7 @@ import { Orbit } from '@/components/Orbit';
 import { Planet } from '@/components/Planet';
 import { useMousePosition } from '@/utils/hooks';
 import { motion, useSpring, useTransform } from 'framer-motion';
+import Link from 'next/link';
 
 export const CallToAction = () => {
   const { xProgress, yProgress } = useMousePosition();
@@ -92,7 +93,7 @@ export const CallToAction = () => {
               </motion.div>
             </div>
             <h2 className="text-gray-200 font-semibold text-3xl md:text-4xl lg:text-5xl max-w-3xl mx-auto text-center leading-tight">
-              Elevate Your Website with{' '}
+              Become A Blockchain Maestro <br/>with{' '}  
               <span className="relative isolate">
                 <span>Renaissance</span>
                 <span
@@ -107,10 +108,10 @@ export const CallToAction = () => {
               </span>
             </h2>
             <p className="text-center text-xl mt-8 max-w-2xl mx-auto">
-              Elevate your business experience with Renaissance. 
+              Experience the power of AI-powered blockchain with Renaissance. 
             </p>
             <div className="flex justify-center items-center mt-10">
-              <Button variant="secondary">Get Started</Button>
+              <Link href="/contracts"><Button variant="secondary">Get Started</Button></Link>
             </div>
           </SectionContent>
         </SectionBorder>

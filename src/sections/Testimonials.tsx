@@ -15,14 +15,14 @@ import { motion, AnimatePresence, LayoutGroup } from 'framer-motion';
 export const testimonials = [
   {
     quote:
-      "Renaissance has helped me redevelop my business website and increase the sales. The great professional of Renaissance is commendable. I am very satisfied with the service of Renaissance and hence recommend it.",
+      "Renaissance has helped me redevelop my business and increase the sales. The great professional of Renaissance is commendable. I am very satisfied with the service of Renaissance and hence recommend it.",
     name: 'Abhiessekh Chaturvedi',
     title: 'CEO @ Humaxmindz Enricherz',
     image: AshwinSantiago,
   },
   {
     quote:
-      "Our business website was revamped and sales sky-rocketed. The maintenance charges went down strikingly. All thanks to Renaissance. We got a permanant solution to a long-term existing problem which got solved. Highly Recommended!",
+      "Our business was revamped and sales sky-rocketed. The maintenance charges went down strikingly. All thanks to Renaissance. We got a permanant solution to a long-term existing problem which got solved. Highly Recommended!",
     name: 'Shyam Sundar Aggarwal',
     title: 'Founder @ Taschekart',
     image: AlecWhitten,

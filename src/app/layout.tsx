@@ -14,7 +14,7 @@ const spaceGroteskFont = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: 'Renaissance',
+  title: 'Renaissance - Blockchain Enhancer',
   description: ' Futuristic Next.js AI Saas Landing Page',
 };
 

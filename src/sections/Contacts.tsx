@@ -63,7 +63,7 @@ const ContactForm: React.FC = () => {
   };
 
   return (
-    <motion.div initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} className="container mx-auto p-6">
+    <motion.div initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} className="container mx-auto p-6" id="contacts">
       <div className="bg-black/65 border border-cyan-500 shadow-md rounded-lg p-6">
         <h2 className="text-2xl font-bold text-white mb-4">Send Us a Message</h2>
 
