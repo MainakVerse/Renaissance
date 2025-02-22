@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-violet-400: theme('colors.violet.400');
+    --color-fuchsia-400: theme('colors.fuchsia.400');
+    --color-fuchsia-900: theme('colors.fuchsia.900');
+    --color-amber-300: theme('colors.amber.300');
+    --color-teal-300: theme('colors.teal.300');
+    --color-gray-950: theme('colors.gray.950');
+    --color-indigo-900: theme('colors.indigo.900');
+
+    --color-border: theme('colors.gray.200/20%');
+  }
+
+  .absolute-center {
+    @apply absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2;
+  }
+
+  .border-gradient {
+    @apply bg-[conic-gradient(from_45deg,var(--color-violet-400),var(--color-fuchsia-400),var(--color-amber-300),var(--color-teal-300),var(--color-violet-400))] border-transparent bg-clip-border;
+  }
+
+  .background-linear_gradient {
+    @apply bg-[linear-gradient(to_right,var(--color-amber-300),var(--color-teal-300),var(--color-violet-400),var(--color-fuchsia-400))];
+  }
+}
