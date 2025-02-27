@@ -30,7 +30,7 @@ export default function SmartAuditor() {
   
     try {
       const genAI = new GoogleGenerativeAI(apiKey);
-      const model = genAI.getGenerativeModel({ model: "gemini-pro" });
+      const model = genAI.getGenerativeModel({ model: "gemini-1.5-pro-latest" });
       const response = await model.generateContent(prompt);
   
       // ✅ Correct way to extract the response text
