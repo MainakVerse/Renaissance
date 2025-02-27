@@ -49,7 +49,7 @@ const SmartOracleGenerator: React.FC = () => {
         throw new Error("Missing API key for Gemini AI.");
       }
       const genAI = new GoogleGenerativeAI(apiKey);
-      const model = genAI.getGenerativeModel({ model: "gemini-pro" });
+      const model = genAI.getGenerativeModel({ model: "gemini-1.5-pro-latest" });
       const response = await model.generateContent(prompt);
       setContractCode(response.response.text());
     } catch (error) {
